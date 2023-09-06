@@ -5,6 +5,7 @@ namespace DockerKubernetesDemo.Controllers
 {
     public class PersonController : Controller
     {
+        // person controller for CRUD operations
         private readonly DatabaseContext _ctx;
         public PersonController(DatabaseContext ctx)
         {
